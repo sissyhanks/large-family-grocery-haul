@@ -12,12 +12,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use(routes);
 
 // sync sequelize models to the database, then turn on the server
-const Tag = require('./models/Tag');
-const ProductTag = require('./models/ProductTag');
-const Product = require('./models/Product');
-const Category = require('./models/Category');
+// const Tag = require('./models/Tag');
+// const ProductTag = require('./models/ProductTag');
+// const Product = require('./models/Product');
+// const Category = require('./models/Category');
 
-sequelize.sync({ force: true }).then(() => {
+sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}!`);
   });
