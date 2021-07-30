@@ -2,7 +2,7 @@
 
 ![insomnia demo](./Assets/demo.png)
 
-[VIDEO DEMO](https://www.youtube.com/watch?v=2thS85Q71Q0)
+[VIDEO DEMO](https://youtu.be/-uEyU0JMNto)
 
 ## Table of Contents
 
